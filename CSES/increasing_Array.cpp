@@ -12,7 +12,7 @@ int main()
         cin>>arr[i];
     }
 
-    int moves = 0;
+    long long moves = 0;
     for(long long i=1; i<n; i++)
     {
         if(arr[i]<arr[i-1])
