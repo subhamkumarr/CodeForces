@@ -6,4 +6,19 @@ int32_t main() {
     cin.tie(NULL);
     cout.tie(NULL);
     
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        long long n, k;
+        cin>>n>>k;
+        if(log2(n) < k)
+        {
+            cout<<n+1<<endl;
+        }
+        else
+        {
+            cout<< (int) pow(2, k) <<endl;
+        }
+    }
 }
